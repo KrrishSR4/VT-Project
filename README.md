@@ -86,7 +86,7 @@ AI IDE uses a modular retrieval pipeline that can read from multiple datasets.
 
 # 🧠 AI Pipeline Architecture
 
-```mermaid
+
 flowchart TD
 A[User Topic Input] --> B[TFJS Transformer Embedder]
 B --> C[Vector Similarity Search]
